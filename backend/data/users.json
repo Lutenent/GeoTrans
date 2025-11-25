@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": 1763889442524,
+      "name": "Вадим",
+      "email": "titoto32@gmail.com",
+      "password": "qazwsx1212",
+      "createdAt": "2025-11-23T09:17:22.524Z",
+      "balance": {
+        "main": 656,
+        "insurance": 1500
+      },
+      "insuranceLimit": 1500
+    },
+    {
+      "id": 1763912805691,
+      "name": "Testtt",
+      "email": "tortik@gmail.com",
+      "password": "tortik",
+      "createdAt": "2025-11-23T15:46:45.691Z",
+      "insuranceLimit": 15,
+      "balance": {
+        "main": 11,
+        "insurance": 15
+      }
+    },
+    {
+      "id": 1763993494456,
+      "name": "zxcghoul",
+      "email": "zxcghoul@zxcghoul.ru",
+      "password": "zxczxc",
+      "createdAt": "2025-11-24T14:11:34.456Z",
+      "insuranceLimit": 11,
+      "balance": {
+        "main": 23,
+        "insurance": 11
+      }
+    },
+    {
+      "id": 1763993540596,
+      "name": "ccxzccc",
+      "email": "ccxzccc@ccxzccc.ru",
+      "password": "ccxzccc",
+      "createdAt": "2025-11-24T14:12:20.596Z"
+    },
+    {
+      "id": 1763993901373,
+      "name": "zxczxcxzczxc",
+      "email": "zxcxzcxzczc@zxczxc.ru",
+      "password": "zxczxc",
+      "createdAt": "2025-11-24T14:18:21.373Z"
+    },
+    {
+      "id": 1763994763182,
+      "name": "dxzczxcxzccc",
+      "email": "zxcxcz@asd.ru",
+      "password": "zxczxc",
+      "createdAt": "2025-11-24T14:32:43.182Z"
+    },
+    {
+      "id": 1763994812619,
+      "name": "zxcxzc",
+      "email": "zxcxzc@zxc.ru",
+      "password": "zxczxc",
+      "createdAt": "2025-11-24T14:33:32.619Z"
+    },
+    {
+      "id": 1764002436199,
+      "name": "asddddd",
+      "email": "sadddddd@asd.ru",
+      "password": "zxczxc",
+      "createdAt": "2025-11-24T16:40:36.199Z"
+    }
+  ]
+}

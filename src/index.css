@@ -1,0 +1,66 @@
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Dark app background === */
+html, body, #root {
+  height: 100%;
+}
+
+:root{
+  --bg-app: #0b0d12;               /* общий фон страницы */
+  --panel: rgba(10,11,16,0.96);    /* тёмные панели (sidebar) */
+  --surface: rgba(16,17,23,0.92);  /* тёмная рабочая область (main) */
+  --border: rgba(255,255,255,0.05);
+}
+
+body {
+  background: var(--bg-app);
+  color: #e5e7eb;
+  font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+
+/* По желанию: мягкие тени */
+.shadow-soft{
+  box-shadow: 0 24px 80px rgba(0,0,0,0.55);
+}
+
+@keyframes auth-blob-move {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.35;
+  }
+  50% {
+    transform: translate3d(0, -18px, 0) scale(1.08);
+    opacity: 0.9;
+  }
+}
+
+@keyframes auth-grid-fade {
+  0%, 100% {
+    opacity: 0.06;
+  }
+  50% {
+    opacity: 0.18;
+  }
+}
+
+.auth-blob {
+  animation: auth-blob-move 14s ease-in-out infinite;
+}
+
+.auth-blob.auth-blob-slow {
+  animation-duration: 18s;
+  animation-delay: -4s;
+}
+
+.auth-blob.auth-blob-slower {
+  animation-duration: 22s;
+  animation-delay: -8s;
+}
+
+.auth-grid {
+  animation: auth-grid-fade 16s ease-in-out infinite;
+}

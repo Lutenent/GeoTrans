@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1763613689301,
+      "name": "1",
+      "email": "1@gmail.com",
+      "passwordHash": "$2b$10$jaMtOTJhrkqbFetva9SBm.JoM.nciiI.AupxVkG1w0ZwXHodAtqtS",
+      "createdAt": "2025-11-20T04:41:29.301Z",
+      "balance": {
+      "main": 500,
+      "insurance": 300
+    },
+      "insuranceLimit": 300
+    }
+  ]
+}
